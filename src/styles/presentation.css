@@ -1,0 +1,57 @@
+.company-launch-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #ffffff;
+  }
+  
+  .text-section {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .text-section h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0 0 20px;
+    color: #000000;
+    line-height: 1.2;
+  }
+  
+  .text-section p {
+    font-size: 1.1em;
+    color: #333333;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .launch-button {
+    background-color: #ffb703; /* Dark teal color */
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .launch-button:hover {
+    background-color: #bde0fe;
+    color : #2f3e46; /* Slightly darker shade on hover */
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .team-image {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 0 0 0 40px; /* Rounded bottom-left corner */
+    object-fit: cover;
+  }
+  

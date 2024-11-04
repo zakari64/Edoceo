@@ -1,0 +1,159 @@
+.footer {
+  background-color: #1a1a1a;
+  color: #e1e1e1;
+  padding: 40px 20px;
+  display: grid;
+  margin: auto;
+  width : 100% ;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px; /* Add space between grid items */
+  font-family: "Titillium web", sans-serif;
+}
+
+/* Branding Section */
+.branding  {
+  width : 100%;
+}
+.branding .footer-logo {
+  width: 25%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer-description {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  color: #e1e1e1;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 5px;
+  transition: color 0.3s;
+  width : 40px;
+}
+
+.social-icons i:hover {
+  color: #50c9c3;
+}
+
+/* Links and Formations Sections */
+.links {
+  width : 100% ;
+}
+.links h4, .formations h4, .newsletter h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.links ul, .formations ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+}
+
+.links li, .formations li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.links li:hover, .formations li:hover {
+  color: #50c9c3;
+  transform: translateX(5px);
+}
+
+/* Newsletter Section */
+.newsletter p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  width: 100%;
+  font-size: 1rem;
+  color: #fff;
+  border : 1px solid white;
+  background-color: transparent;
+  transition: box-shadow 0.3s;
+}
+
+.newsletter-form input[type="email"]::placeholder {
+  color: #999;
+}
+
+.newsletter-form input[type="email"]:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.newsletter-form button {
+  padding: 15px 25px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #50c9c3;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+  background-color: #3772ff;
+}
+
+.newsletter-note {
+  font-size: 0.9rem;
+  color: #ccc;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+  grid-column: 1 / -1; /* Spans the entire footer width */
+  display: flex;
+  width : 100% ;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+
+.qualiopi-logo {
+  display : flex ;
+  justify-content : center ;
+  align-items : center ;
+  height: 160px;
+  width: 20%;
+  padding : 10px ;
+
+}
