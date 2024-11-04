@@ -65,10 +65,10 @@ function Navbar() {
           {dropdownOpen && (
             <div className="dropdown">
               <a href="#" className="dropdown-item">
-                CFA
+              Centre de formation d'apprentis (CFA)
               </a>
               <a href="#" className="dropdown-item">
-                AC
+              Actions de formartions (AF)
               </a>
               <a href="#" className="dropdown-item">
                 Qualifiante

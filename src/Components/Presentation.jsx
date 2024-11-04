@@ -1,27 +1,30 @@
 import React from "react";
-import "../styles/presentation.css"; 
-import plans from '../assets/images/plans.webp'
-
+import "../styles/presentation.css";
+import plans from "../assets/images/plans.webp";
 
 const CompanyLaunch = () => {
   return (
     <div className="company-launch-container">
       <div className="text-section">
-        <h1>Lancez votre société,<br />simplement.</h1>
+        <h1>
+          L'Excellence pédagogique
+          <br />
+          simplement.
+        </h1>
         <p>
-          Créez votre entreprise rapidement en étant bien accompagné. Gérez
-          votre juridique, comptabilité et finances dans la même application.
-          Accompagnement personnalisé par un juriste dédié jusqu'à
-          l'obtention du Kbis.
+          Le Centre de Formation Edoceo se distingue par son expertise dans des
+          formations variées, adaptées aux besoins actuels du marché. Nos
+          programmes couvrent des domaines tels que l'hôtelerie, l'aeroportuaire
+          et le management sont animés par des formateurs qualifiés, permettant
+          à chacun de développer des compétences solides pour réussir
+          professionnellement.
         </p>
-        <button className="launch-button">Créer votre entreprise</button>
+        <a href="#" className="button">
+          Contact
+        </a>
       </div>
       <div className="image-section">
-        <img 
-          src={plans} 
-          alt="Team discussing plans" 
-          className="team-image" 
-        />
+        <img src={plans} alt="Team discussing plans" className="team-image" />
       </div>
     </div>
   );

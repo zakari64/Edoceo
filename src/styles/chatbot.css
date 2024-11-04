@@ -3,7 +3,7 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #0288d1;
+  background-color: #bde0fe;
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -12,6 +12,7 @@
   font-size: 24px;
   cursor: pointer;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 /* Chatbot container as a floating box */
@@ -25,6 +26,7 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
 }
 
 /* Chatbot box styling */
@@ -42,8 +44,8 @@
 
 /* Header styling */
 .chatbot-header {
-  background-color: #0288d1;
-  color: #fff;
+  background-color: #bde0fe;
+  color: #212529;
   text-align: center;
   padding: 10px 0;
   font-size: 20px;
@@ -85,6 +87,11 @@
   display: flex;
   border-top: 1px solid #e0e0e0;
   padding: 10px;
+}
+.chatbot-input-container button {
+  padding : 10px ;
+  background: #bde0fe;
+  border-radius: 10px;
 }
 
 .chatbot-input {

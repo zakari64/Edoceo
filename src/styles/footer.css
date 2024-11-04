@@ -5,14 +5,15 @@
   display: grid;
   margin: auto;
   width : 100% ;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 60px; /* Add space between grid items */
   font-family: "Titillium web", sans-serif;
 }
 
 /* Branding Section */
 .branding  {
-  width : 100%;
+  display: auto;
+  margin: auto;
 }
 .branding .footer-logo {
   width: 25%;
@@ -43,12 +44,13 @@
 }
 
 .social-icons i:hover {
-  color: #50c9c3;
+  color: #3772ff;
 }
 
 /* Links and Formations Sections */
 .links {
-  width : 100% ;
+  display: auto;
+  margin: auto;
 }
 .links h4, .formations h4, .newsletter h4 {
   font-size: 1.2rem;
@@ -71,66 +73,12 @@
 }
 
 .links li:hover, .formations li:hover {
-  color: #50c9c3;
+  color: #3772ff;
   transform: translateX(5px);
 }
-
-/* Newsletter Section */
-.newsletter p {
-  font-size: 1rem;
-  margin-bottom: 20px;
-  color: #ccc;
-}
-
-.newsletter-form {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.newsletter-form input[type="email"] {
-  padding: 15px 20px;
-  border: none;
-  border-radius: 30px;
-  outline: none;
-  width: 100%;
-  font-size: 1rem;
-  color: #fff;
-  border : 1px solid white;
-  background-color: transparent;
-  transition: box-shadow 0.3s;
-}
-
-.newsletter-form input[type="email"]::placeholder {
-  color: #999;
-}
-
-.newsletter-form input[type="email"]:focus {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.newsletter-form button {
-  padding: 15px 25px;
-  font-size: 1rem;
-  color: #fff;
-  background-color: #50c9c3;
-  border: none;
-  border-radius: 30px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.newsletter-form button:hover {
-  background-color: #3772ff;
-}
-
-.newsletter-note {
-  font-size: 0.9rem;
-  color: #ccc;
-  line-height: 1.4;
-  margin-top: 10px;
+.formations {
+  display: block ;
+  margin: auto;
 }
 
 /* Footer Bottom Section */
@@ -146,7 +94,10 @@
   font-size: 0.9rem;
   color: #aaa;
 }
-
+.footer-bottom img{
+ width : 162px ;
+ height : 108px ;
+}
 
 .qualiopi-logo {
   display : flex ;

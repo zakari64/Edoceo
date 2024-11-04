@@ -47,11 +47,29 @@
     display: flex;
     justify-content: flex-end;
   }
-  
+
   .team-image {
-    width: 90%;
-    max-width: 500px;
-    border-radius: 0 0 0 40px; /* Rounded bottom-left corner */
-    object-fit: cover;
+    border-radius: 50% ;
+    object-fit: cover;/* Rounded bottom-left corner */
   }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #3772ff;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3772ff;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background: linear-gradient(45deg, #50c9c3, #3772ff);
+    color: #fff;
+    transform: translateY(-2px);
+}
+
   

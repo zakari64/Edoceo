@@ -1,15 +1,20 @@
 /* ContactPage.css */
 
 .contact-container {
-  font-family: 'Arial', sans-serif;
   color: #333;
   background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,0.7959558823529411) 0%, rgba(189,224,254,0.6727065826330532) 50%, rgba(255,255,255,1) 100%);}
+  background: linear-gradient(90deg, rgba(255,255,255,0.7959558823529411) 0%, rgba(189,224,254,0.6727065826330532) 50%, rgba(255,255,255,1) 100%);
+  margin-top: 118.5px;  /* adjust this value to match your header height */
+}
+  
 
 .contact-header {
   text-align: center;
   padding: 20px 0;
   width : 100% ;
+  font-family: 'Titillium web', sans-serif;
+  font-size: 37px;
+  font-weight: 750;
 }
 
 .contact-content {
@@ -38,7 +43,6 @@
 .contact-right-section {
   flex: 1;
   padding-left: 80px;
-  border-left: 1px solid #ddd;
 }
 .contact-right-section h2 {
   font-family: 'Titillium web', sans-serif;
@@ -54,6 +58,13 @@
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  padding : 5px ;
+}
+
+.contact-item img {
+  width : 30px ;
+  background: rgb(222, 226, 230, 0.5);
+  border-radius: 50%;
   padding : 5px ;
 }
 .contact-info a {

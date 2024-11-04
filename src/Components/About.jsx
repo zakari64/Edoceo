@@ -11,15 +11,14 @@ const AboutUs = () => {
       <Navbar />
       <div className="container">
         <div className="text-section">
-          <div className="title">Empower your journey </div>
-          <div className="subtitle">Inspiring minds, shaping futures</div>
+          <div className="title">Qui sommes nous ?</div>
+          <div className="subtitle"> Apprendre aujourd'hui, réussir demain.</div>
           <p>
-            At Edoceo, our mission is to nurture and empower individuals to
-            reach their full potential. With a commitment to innovative learning
-            and personalized support, our center provides a dynamic environment
-            that fosters growth, creativity, and excellence. Join us on a
-            journey of discovery, where aspirations are transformed into
-            achievements and lifelong learning is cultivated.
+          Bienvenue au Centre d'Apprentissage Lumière, votre destination pour l'éducation et
+           développement personnel. Notre centre est dédié à offrir des cours variés
+            et innovants pour étudiants de tous âges, dans un environnement accueillant 
+            et stimulant. 
+
           </p>
           <a href="#" className="button">
             Get in Touch

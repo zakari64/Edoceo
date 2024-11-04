@@ -38,7 +38,7 @@ const Chatbot = () => {
       {isOpen && (
         <div className="chatbot-container">
           <div className="chatbot-box">
-            <div className="chatbot-header">LightBlue Chatbot</div>
+            <div className="chatbot-header">EdoBot</div>
             <div className="chatbot-messages-container">
               {messages.map((message, index) => (
                 <div
