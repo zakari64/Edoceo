@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b222f216.css",
+    "main.js": "/static/js/main.5e063941.js",
+    "static/js/453.5650b7dd.chunk.js": "/static/js/453.5650b7dd.chunk.js",
+    "static/media/peoplePlane.mp4": "/static/media/peoplePlane.77517867e40cac62d8e3.mp4",
+    "static/media/ai.png": "/static/media/ai.1ebff55d3bea8bacc7d3.png",
+    "static/media/airport.jpg": "/static/media/airport.5f0dc90eeabdae10dc0e.jpg",
+    "static/media/team.png": "/static/media/team.de3de4ee145b95a48d15.png",
+    "static/media/blue.png": "/static/media/blue.795fce3990072e1a2a1b.png",
+    "static/media/management.png": "/static/media/management.e7d64fe085f89beb21d5.png",
+    "static/media/fishing.jpg": "/static/media/fishing.0e5bb78d6c3b8b899aae.jpg",
+    "static/media/resto.png": "/static/media/resto.eea390512ed41434ea4d.png",
+    "static/media/estetic.webp": "/static/media/estetic.68433642dfeed7ef72b4.webp",
+    "static/media/hotel.webp": "/static/media/hotel.8ac2865a950f7feb0e52.webp",
+    "static/media/phonefix.webp": "/static/media/phonefix.2a97334e76341a41c29e.webp",
+    "static/media/plans.webp": "/static/media/plans.3bc96eb760bd1763dad2.webp",
+    "static/media/staffhotel.jpg": "/static/media/staffhotel.3ee39055eb7e8678ad4b.jpg",
+    "static/media/Edoceo.png": "/static/media/Edoceo.72aa26b19ca07c22631b.png",
+    "static/media/Qualicopy.png": "/static/media/Qualicopy.760ce041dedc86548628.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.b222f216.css.map": "/static/css/main.b222f216.css.map",
+    "main.5e063941.js.map": "/static/js/main.5e063941.js.map",
+    "453.5650b7dd.chunk.js.map": "/static/js/453.5650b7dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b222f216.css",
+    "static/js/main.5e063941.js"
+  ]
+}

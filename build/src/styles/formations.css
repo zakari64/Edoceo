@@ -1,0 +1,109 @@
+/* TrainingPage.css */
+
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.7959558823529411) 0%, rgba(189,224,254,0.8827906162464986) 50%, rgba(255,255,255,1) 100%);    min-height: 100vh;
+}
+
+.text-section {
+    max-width: 50%;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #3772ff;
+    margin-bottom: 10px;
+}
+
+.page-container .text-section p {
+    font-size: 1.4rem;
+    color: #212529;
+    line-height: 1.6;
+}
+
+.image-section {
+    position: relative;
+    max-width: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-image {
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.circular-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title-section {
+    color : #212529 ;
+    letter-spacing : 2px ;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 2.5rem;
+    width : 100% ;
+    text-align : center ;
+    font-weight: 600;
+    padding : 10px ;
+}
+.trainings-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px; /* Increased gap for better visibility */
+    padding: 20px;
+    justify-items: center; /* Center the cards in each column */
+}
+
+.training-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 75%; /* Slightly narrower width to fit well in a grid */
+    padding: 36px;
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.training-card:hover {
+    transform: translateY(-10px);
+}
+.training-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.training-badge {
+    font-size: 0.9rem;
+    color: #666;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.training-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+.training-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.4;
+}
