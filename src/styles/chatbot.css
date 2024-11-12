@@ -88,7 +88,7 @@
   border-top: 1px solid #e0e0e0;
   padding: 10px;
 }
-.chatbot-input-container button {
+.chatbot-input-container .chatbot-send-button {
   padding : 10px ;
   background: #bde0fe;
   border-radius: 10px;
