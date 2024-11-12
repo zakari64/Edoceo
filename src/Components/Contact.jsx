@@ -42,13 +42,13 @@ const ContactPage = () => {
                 edoceolearning@gmail.com
               </a>
             </div>
-            <div className="contact-item">
+            {/* <div className="contact-item">
               <img src={phone} alt="email" />
               <a href="tel:+33756984523">+33(0)75 69 84 523</a>
-            </div>
+            </div> */}
             <div className="contact-item">
               <img src={location} alt="email" />
-              <p>9 Rue Hélène Boucher, Parray-vielle-poste 94390 </p>
+              <p>75 avenue jean jaurés, 92120 Montrouge </p>
             </div>
           </div>
         </div>

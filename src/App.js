@@ -9,6 +9,7 @@ import HomePage from './Components/HomePage';
 import About  from './Components/About';
 import Formations from './Components/Formations'
 import Contact from './Components/Contact'
+import Login from './Components/Login'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/formation" element={<Formations/>} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
 
